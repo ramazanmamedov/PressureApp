@@ -11,7 +11,7 @@ public class SequentialLoadProfile : IProfile
             await _taskCompletionSource.Task;
 
         _taskCompletionSource = new();
-        return cancellationToken.IsCancellationRequested;
+        return !cancellationToken.IsCancellationRequested;
     }
 
     public Task OnQueryExecutedAsync(CancellationToken cancellationToken)

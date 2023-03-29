@@ -14,7 +14,7 @@ public class LimitedConcurrencyLoadProfile : IProfile
     public async Task<bool> WhenNextCanBeExecutedAsync(CancellationToken cancellationToken)
     {
        await _semaphore.WaitAsync(cancellationToken);
-       return cancellationToken.IsCancellationRequested;
+       return !cancellationToken.IsCancellationRequested;
     }
 
     public Task OnQueryExecutedAsync(CancellationToken cancellationToken)
