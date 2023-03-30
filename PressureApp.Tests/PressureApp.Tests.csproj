@@ -23,6 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\PressureApp.Core\PressureApp.Core.csproj" />
       <ProjectReference Include="..\PressureApp\PressureApp.csproj" />
     </ItemGroup>
 

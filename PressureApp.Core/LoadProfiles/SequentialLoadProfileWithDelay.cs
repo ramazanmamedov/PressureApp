@@ -1,6 +1,6 @@
-using PressureApp.Interfaces;
+using PressureApp.Core.Interfaces;
 
-namespace PressureApp.LoadProfiles;
+namespace PressureApp.Core.LoadProfiles;
 
 public class SequentialLoadProfileWithDelay : IProfile
 {

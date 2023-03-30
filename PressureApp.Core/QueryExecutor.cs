@@ -1,6 +1,6 @@
-using PressureApp.Interfaces;
+using PressureApp.Core.Interfaces;
 
-namespace PressureApp;
+namespace PressureApp.Core;
 
 public class QueryExecutor
 {

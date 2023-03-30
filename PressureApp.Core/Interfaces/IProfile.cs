@@ -1,4 +1,4 @@
-namespace PressureApp.Interfaces;
+namespace PressureApp.Core.Interfaces;
 
 public interface IProfile
 {

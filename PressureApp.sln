@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressureApp", "PressureApp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressureApp.Tests", "PressureApp.Tests\PressureApp.Tests.csproj", "{EB0FBEAE-3D31-43FD-9CAC-F1E33AC5F18A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PressureApp.Core", "PressureApp.Core\PressureApp.Core.csproj", "{99DF271F-1C0F-466D-9273-DA0D81C080EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{EB0FBEAE-3D31-43FD-9CAC-F1E33AC5F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB0FBEAE-3D31-43FD-9CAC-F1E33AC5F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB0FBEAE-3D31-43FD-9CAC-F1E33AC5F18A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DF271F-1C0F-466D-9273-DA0D81C080EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DF271F-1C0F-466D-9273-DA0D81C080EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DF271F-1C0F-466D-9273-DA0D81C080EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DF271F-1C0F-466D-9273-DA0D81C080EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

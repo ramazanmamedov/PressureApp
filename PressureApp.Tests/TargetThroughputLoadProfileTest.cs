@@ -1,4 +1,4 @@
-using PressureApp.LoadProfiles;
+using PressureApp.Core.LoadProfiles;
 
 namespace PressureApp.Tests;
 
